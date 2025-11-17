@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/index.css">
+    <title>Weekly User Feedback Summary</title>
+  </head>
+  <body class="bg-gray-900 text-white font-sans">
+    <div id="app" class="container mx-auto p-8">
+      <div class="bg-gradient-to-r from-blue-500 to-purple-600 p-8 rounded-lg mb-8">
+        <h1 class="text-4xl font-bold">Weekly User Feedback Summary</h1>
+      </div>
+
+      <div class="bg-gray-800 p-8 rounded-lg mb-8">
+        <h2 class="text-2xl font-semibold mb-4">Key Themes</h2>
+        <ul class="list-disc list-inside space-y-2">
+          <li class="hover:text-blue-400 transition-colors">SDK Enhancements and Feature Requests</li>
+          <li class="hover:text-blue-400 transition-colors">Advanced Use Cases and Integrations</li>
+          <li class="hover:text-blue-400 transition-colors">Developer Experience and Documentation</li>
+          <li class="hover:text-blue-400 transition-colors">Granular Control and Advanced Workflows</li>
+          <li class="hover:text-blue-400 transition-colors">Prompt Engineering</li>
+        </ul>
+      </div>
+
+      <div class="bg-gray-800 p-8 rounded-lg">
+        <h2 class="text-2xl font-semibold mb-4">Actionable Feature Requests</h2>
+        <ul class="list-disc list-inside space-y-2">
+          <li class="hover:text-blue-400 transition-colors">JulesApp.cancelSession(sessionId)</li>
+          <li class="hover:text-blue-400 transition-colors">Webhook on Session Completion</li>
+          <li class="hover:text-blue-400 transition-colors">Cost/Token Usage Tracking via API</li>
+        </ul>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
