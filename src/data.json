@@ -1,0 +1,302 @@
+[
+{
+"Miles": 5.1,
+"Shoe": "Daily Trainer",
+"TotalTime": "1899-12-30T05:45:54.000Z",
+"RunType": "Easy Run",
+"DayOfWeek": "Tuesday",
+"Temp": 68,
+"AvgHR": 145,
+"Route": "Park Loop"
+},
+{
+"Miles": 6.2,
+"Shoe": "Tempo Day Rockets",
+"TotalTime": "1899-12-30T05:51:10.000Z",
+"RunType": "Tempo Run",
+"DayOfWeek": "Thursday",
+"Temp": 72,
+"AvgHR": 166,
+"Route": "River Trail"
+},
+{
+"Miles": 12.5,
+"Shoe": "Max Cushion",
+"TotalTime": "1899-12-30T06:55:30.000Z",
+"RunType": "Long Run",
+"DayOfWeek": "Saturday",
+"Temp": 55,
+"AvgHR": 152,
+"Route": "Downtown Out and Back"
+},
+{
+"Miles": 3,
+"Shoe": "Old Reliable",
+"TotalTime": "1899-12-30T05:29:45.000Z",
+"RunType": "Recovery Run",
+"DayOfWeek": "Sunday",
+"Temp": 58,
+"AvgHR": 138,
+"Route": "Neighborhood Hills"
+},
+{
+"Miles": 4.5,
+"Shoe": "Daily Trainer",
+"TotalTime": "1899-12-30T05:40:30.000Z",
+"RunType": "Easy Run",
+"DayOfWeek": "Monday",
+"Temp": 62,
+"AvgHR": 148,
+"Route": "Park Loop"
+},
+{
+"Miles": 7,
+"Shoe": "Interval Runners",
+"TotalTime": "1899-12-30T06:02:00.000Z",
+"RunType": "Intervals",
+"DayOfWeek": "Wednesday",
+"Temp": 75,
+"AvgHR": 172,
+"Route": "Community Track"
+},
+{
+"Miles": 3.5,
+"Shoe": "Old Reliable",
+"TotalTime": "1899-12-30T05:35:15.000Z",
+"RunType": "Recovery Run",
+"DayOfWeek": "Friday",
+"Temp": 78,
+"AvgHR": 135,
+"Route": "River Trail"
+},
+{
+"Miles": 10,
+"Shoe": "Max Cushion",
+"TotalTime": "1899-12-30T06:35:12.000Z",
+"RunType": "Long Run",
+"DayOfWeek": "Sunday",
+"Temp": 61,
+"AvgHR": 155,
+"Route": "Greenway Path"
+},
+{
+"Miles": 5.5,
+"Shoe": "Daily Trainer",
+"TotalTime": "1899-12-30T05:49:05.000Z",
+"RunType": "Easy Run",
+"DayOfWeek": "Tuesday",
+"Temp": 66,
+"AvgHR": 144,
+"Route": "Neighborhood Hills"
+},
+{
+"Miles": 6,
+"Shoe": "Tempo Day Rockets",
+"TotalTime": "1899-12-30T05:49:50.000Z",
+"RunType": "Tempo Run",
+"DayOfWeek": "Thursday",
+"Temp": 70,
+"AvgHR": 168,
+"Route": "Park Loop"
+},
+{
+"Miles": 14,
+"Shoe": "Max Cushion",
+"TotalTime": "1899-12-30T07:10:00.000Z",
+"RunType": "Long Run",
+"DayOfWeek": "Saturday",
+"Temp": 52,
+"AvgHR": 151,
+"Route": "City Loop"
+},
+{
+"Miles": 3.2,
+"Shoe": "Old Reliable",
+"TotalTime": "1899-12-30T05:32:00.000Z",
+"RunType": "Recovery Run",
+"DayOfWeek": "Sunday",
+"Temp": 54,
+"AvgHR": 136,
+"Route": "Park Loop"
+},
+{
+"Miles": 4.8,
+"Shoe": "Daily Trainer",
+"TotalTime": "1899-12-30T05:43:10.000Z",
+"RunType": "Easy Run",
+"DayOfWeek": "Monday",
+"Temp": 65,
+"AvgHR": 147,
+"Route": "River Trail"
+},
+{
+"Miles": 8,
+"Shoe": "Interval Runners",
+"TotalTime": "1899-12-30T06:10:30.000Z",
+"RunType": "Intervals",
+"DayOfWeek": "Wednesday",
+"Temp": 78,
+"AvgHR": 175,
+"Route": "Community Track"
+},
+{
+"Miles": 4,
+"Shoe": "Old Reliable",
+"TotalTime": "1899-12-30T05:40:00.000Z",
+"RunType": "Recovery Run",
+"DayOfWeek": "Friday",
+"Temp": 81,
+"AvgHR": 133,
+"Route": "Neighborhood Hills"
+},
+{
+"Miles": 11.5,
+"Shoe": "Max Cushion",
+"TotalTime": "1899-12-30T06:48:00.000Z",
+"RunType": "Long Run",
+"DayOfWeek": "Sunday",
+"Temp": 63,
+"AvgHR": 154,
+"Route": "Downtown Out and Back"
+},
+{
+"Miles": 5,
+"Shoe": "Daily Trainer",
+"TotalTime": "1899-12-30T05:45:00.000Z",
+"RunType": "Easy Run",
+"DayOfWeek": "Tuesday",
+"Temp": 69,
+"AvgHR": 146,
+"Route": "Greenway Path"
+},
+{
+"Miles": 6.5,
+"Shoe": "Tempo Day Rockets",
+"TotalTime": "1899-12-30T05:54:10.000Z",
+"RunType": "Tempo Run",
+"DayOfWeek": "Thursday",
+"Temp": 74,
+"AvgHR": 167,
+"Route": "Park Loop"
+},
+{
+"Miles": 15,
+"Shoe": "Max Cushion",
+"TotalTime": "1899-12-30T07:25:00.000Z",
+"RunType": "Long Run",
+"DayOfWeek": "Saturday",
+"Temp": 48,
+"AvgHR": 150,
+"Route": "River Trail North"
+},
+{
+"Miles": 3,
+"Shoe": "Old Reliable",
+"TotalTime": "1899-12-30T05:30:10.000Z",
+"RunType": "Recovery Run",
+"DayOfWeek": "Sunday",
+"Temp": 50,
+"AvgHR": 139,
+"Route": "Neighborhood Hills"
+},
+{
+"Miles": 5.3,
+"Shoe": "Daily Trainer",
+"TotalTime": "1899-12-30T05:47:45.000Z",
+"RunType": "Easy Run",
+"DayOfWeek": "Monday",
+"Temp": 66,
+"AvgHR": 145,
+"Route": "Park Loop"
+},
+{
+"Miles": 7.5,
+"Shoe": "Interval Runners",
+"TotalTime": "1899-12-30T06:05:00.000Z",
+"RunType": "Intervals",
+"DayOfWeek": "Wednesday",
+"Temp": 82,
+"AvgHR": 173,
+"Route": "Community Track"
+},
+{
+"Miles": 3.8,
+"Shoe": "Old Reliable",
+"TotalTime": "1899-12-30T05:38:00.000Z",
+"RunType": "Recovery Run",
+"DayOfWeek": "Friday",
+"Temp": 85,
+"AvgHR": 134,
+"Route": "River Trail"
+},
+{
+"Miles": 13,
+"Shoe": "Max Cushion",
+"TotalTime": "1899-12-30T07:02:00.000Z",
+"RunType": "Long Run",
+"DayOfWeek": "Sunday",
+"Temp": 65,
+"AvgHR": 153,
+"Route": "City Loop"
+},
+{
+"Miles": 5.8,
+"Shoe": "Daily Trainer",
+"TotalTime": "1899-12-30T05:52:12.000Z",
+"RunType": "Easy Run",
+"DayOfWeek": "Tuesday",
+"Temp": 71,
+"AvgHR": 143,
+"Route": "Neighborhood Hills"
+},
+{
+"Miles": 6.8,
+"Shoe": "Tempo Day Rockets",
+"TotalTime": "1899-12-30T05:56:30.000Z",
+"RunType": "Tempo Run",
+"DayOfWeek": "Thursday",
+"Temp": 76,
+"AvgHR": 169,
+"Route": "Greenway Path"
+},
+{
+"Miles": 10.5,
+"Shoe": "Max Cushion",
+"TotalTime": "1899-12-30T06:40:00.000Z",
+"RunType": "Long Run",
+"DayOfWeek": "Saturday",
+"Temp": 59,
+"AvgHR": 156,
+"Route": "Downtown Out and Back"
+},
+{
+"Miles": 3.1,
+"Shoe": "Old Reliable",
+"TotalTime": "1899-12-30T05:31:00.000Z",
+"RunType": "Recovery Run",
+"DayOfWeek": "Sunday",
+"Temp": 62,
+"AvgHR": 137,
+"Route": "Park Loop"
+},
+{
+"Miles": 5,
+"Shoe": "Daily Trainer",
+"TotalTime": "1899-12-30T05:44:50.000Z",
+"RunType": "Easy Run",
+"DayOfWeek": "Monday",
+"Temp": 68,
+"AvgHR": 149,
+"Route": "River Trail"
+},
+{
+"Miles": 8.5,
+"Shoe": "Interval Runners",
+"TotalTime": "1899-12-30T06:15:00.000Z",
+"RunType": "Intervals",
+"DayOfWeek": "Wednesday",
+"Temp": 80,
+"AvgHR": 171,
+"Route": "Community Track"
+}
+]
