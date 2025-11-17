@@ -7,8 +7,29 @@
     <link rel="stylesheet" href="./src/style.css" />
   </head>
   <body>
-    <div class="chart-container">
-      <canvas id="runTypeChart"></canvas>
+    <div class="main-container">
+      <div class="chart-container">
+        <canvas id="runTypeChart"></canvas>
+      </div>
+      <div class="table-container">
+        <table id="dataTable">
+          <thead>
+            <tr>
+              <th>Miles</th>
+              <th>Shoe</th>
+              <th>Total Time</th>
+              <th>Run Type</th>
+              <th>Day of Week</th>
+              <th>Temp</th>
+              <th>Avg HR</th>
+              <th>Route</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Data will be inserted here -->
+          </tbody>
+        </table>
+      </div>
     </div>
     <script type="module" src="./src/main.js"></script>
   </body>

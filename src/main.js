@@ -67,6 +67,27 @@ const renderChart = () => {
   });
 };
 
+const renderTable = () => {
+  const tbody = document.querySelector('#dataTable tbody');
+  tbody.innerHTML = ''; // Clear existing data
+
+  data.forEach((entry) => {
+    const row = document.createElement('tr');
+    row.innerHTML = `
+      <td>${entry.Miles}</td>
+      <td>${entry.Shoe}</td>
+      <td>${entry.TotalTime}</td>
+      <td>${entry.RunType}</td>
+      <td>${entry.DayOfWeek}</td>
+      <td>${entry.Temp}</td>
+      <td>${entry.AvgHR}</td>
+      <td>${entry.Route}</td>
+    `;
+    tbody.appendChild(row);
+  });
+};
+
 document.addEventListener('DOMContentLoaded', () => {
   renderChart();
+  renderTable();
 });
