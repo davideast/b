@@ -1,15 +1,24 @@
 {
-  "name": "preprepreviews",
+  "name": "app-script-artifacts",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davideast/app-script-artifacts.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "firebase-tools": "https://storage.googleapis.com/fir-tools-builds/manual/firebase-tools-8.7.0-channels.tgz"
+  "bugs": {
+    "url": "https://github.com/davideast/app-script-artifacts/issues"
+  },
+  "homepage": "https://github.com/davideast/app-script-artifacts#readme",
+  "dependencies": {
+    "chart.js": "^4.5.1",
+    "vite": "^7.2.2"
   }
 }
