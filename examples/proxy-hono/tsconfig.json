@@ -5,6 +5,7 @@
     "lib": ["ES2022", "DOM"],
     "strict": true,
     "esModuleInterop": true,
-    "moduleResolution": "node"
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   }
 }

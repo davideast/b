@@ -1,16 +1,14 @@
 {
   "name": "proxy-hono",
   "version": "1.0.0",
-  "description": "A simple proxy server using Hono.",
+  "description": "A Hono proxy server example.",
   "main": "index.js",
   "scripts": {
     "start": "ts-node index.ts"
   },
   "dependencies": {
     "@hono/node-server": "^1.11.1",
-    "hono": "^4.3.7"
-  },
-  "devDependencies": {
+    "hono": "^4.3.11",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   }
