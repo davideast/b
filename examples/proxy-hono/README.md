@@ -16,4 +16,4 @@ This example demonstrates how to create a simple proxy server using Hono.
    npm start
    ```
 
-The server will start on port 3000 and proxy requests to `https://jsonplaceholder.typicode.com`.
+The server will start on port 3000. You can then make requests to `http://localhost:3000`, which will be proxied to `https://hono.dev`.
