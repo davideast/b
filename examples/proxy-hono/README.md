@@ -1,19 +1,19 @@
-# Hono Proxy Server Example
+# Hono Proxy Example
 
 This example demonstrates how to create a simple proxy server using Hono.
 
 ## Setup
 
 1. **Install dependencies:**
-
    ```bash
    npm install
    ```
 
-2. **Run the server:**
+## Running the server
 
+1. **Start the server:**
    ```bash
    npm start
    ```
 
-The proxy server will be listening on port 3000. Any requests to `http://localhost:3000` will be forwarded to `https://example.com`.
+The server will start on port 3000. You can access it at [http://localhost:3000](http://localhost:3000).

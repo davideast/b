@@ -3,33 +3,32 @@ import { serve } from '@hono/node-server';
 
 const app = new Hono();
 
+const PROXY_TARGET = 'https://jsonplaceholder.typicode.com';
+
 app.all('*', async (c) => {
   const url = new URL(c.req.url);
-  const targetUrl = new URL('https://example.com' + url.pathname + url.search);
+  const targetUrl = new URL(PROXY_TARGET + url.pathname + url.search);
 
-  const newRequest = new Request(targetUrl.toString(), c.req.raw);
+  // Copy headers, excluding 'host'
+  const headers = new Headers(c.req.headers);
+  headers.delete('host');
 
-  const response = await fetch(newRequest);
-
-  // Create a new response to avoid streaming issues
-  const body = await response.arrayBuffer();
-  const headers = new Headers(response.headers);
-
-  return new Response(body, {
-    status: response.status,
-    statusText: response.statusText,
-    headers: headers
+  const response = await fetch(targetUrl.toString(), {
+    method: c.req.method,
+    headers: headers,
+    // Only forward a body for methods that support it
+    body: (c.req.method === 'GET' || c.req.method === 'HEAD') ? null : c.req.body,
+    redirect: 'manual',
   });
+
+  return response;
 });
 
-let server: ReturnType<typeof serve>;
 
-if (require.main === module) {
-  server = serve({
-    fetch: app.fetch,
-    port: 3000,
-  });
-  console.log('Proxy server listening on port 3000');
-}
+const port = 3000;
+console.log(`Proxy server is running on port ${port}, forwarding to ${PROXY_TARGET}`);
 
-export { app, server };
+serve({
+  fetch: app.fetch,
+  port,
+});
