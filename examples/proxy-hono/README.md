@@ -1,6 +1,6 @@
 # Hono Proxy Example
 
-This example demonstrates how to create a simple proxy server using Hono. The server forwards all incoming requests to `https://hono.dev`.
+This example demonstrates how to create a simple proxy server using Hono.
 
 ## Setup
 
@@ -9,9 +9,11 @@ This example demonstrates how to create a simple proxy server using Hono. The se
    npm install
    ```
 
-2. **Start the server:**
+## Running the server
+
+1. **Start the server:**
    ```bash
    npm start
    ```
 
-The server will start on a random port. You can now access the proxied content by visiting, for example, `http://localhost:<port>/` in your browser, which will serve the content from `https://hono.dev/`. Any path you visit on the proxy will be forwarded to the target URL.
+The server will be running on `http://localhost:3000`. Any requests to this server will be proxied to `https://example.com`.
