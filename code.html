@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Raffinato Espresso Menu</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#d44211",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#221510",
+                        "surface-light": "#ffffff",
+                        "surface-dark": "#2f1e18",
+                    },
+                    fontFamily: {
+                        "display": ["Work Sans", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+<style>
+        /* Custom scrollbar hiding for clean UI */
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+        .scrollbar-hide {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark min-h-screen relative flex flex-col font-display overflow-x-hidden selection:bg-primary selection:text-white">
+<!-- Top App Bar -->
+<header class="sticky top-0 z-50 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-sm border-b border-black/5 dark:border-white/10 transition-colors duration-300">
+<div class="flex items-center p-4 pb-2 justify-between max-w-md mx-auto w-full">
+<button class="text-[#181311] dark:text-white flex size-12 shrink-0 items-center justify-start hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[28px]">menu</span>
+</button>
+<h1 class="text-[#181311] dark:text-white text-2xl font-bold leading-tight tracking-[-0.03em] flex-1 text-center uppercase">RAFFINATO</h1>
+<div class="flex w-12 items-center justify-end">
+<button class="flex cursor-pointer items-center justify-center overflow-hidden rounded-full size-10 bg-transparent text-[#181311] dark:text-white hover:bg-black/5 dark:hover:bg-white/10 transition-colors relative">
+<span class="material-symbols-outlined text-[24px]">shopping_bag</span>
+<!-- Badge -->
+<span class="absolute top-2 right-2 size-2 bg-primary rounded-full ring-2 ring-background-light dark:ring-background-dark"></span>
+</button>
+</div>
+</div>
+<!-- Category Tabs -->
+<div class="w-full overflow-x-auto scrollbar-hide pb-0">
+<div class="flex px-4 gap-8 min-w-max max-w-md mx-auto">
+<a class="flex flex-col items-center justify-center border-b-[3px] border-primary text-[#181311] dark:text-white pb-3 pt-2" href="#">
+<p class="text-sm font-bold leading-normal tracking-wider uppercase">Featured</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-transparent text-[#896b61] dark:text-[#a08c84] hover:text-primary dark:hover:text-primary transition-colors pb-3 pt-2" href="#">
+<p class="text-sm font-bold leading-normal tracking-wider uppercase">Classics</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-transparent text-[#896b61] dark:text-[#a08c84] hover:text-primary dark:hover:text-primary transition-colors pb-3 pt-2" href="#">
+<p class="text-sm font-bold leading-normal tracking-wider uppercase">Milk &amp; Alt</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-transparent text-[#896b61] dark:text-[#a08c84] hover:text-primary dark:hover:text-primary transition-colors pb-3 pt-2" href="#">
+<p class="text-sm font-bold leading-normal tracking-wider uppercase">Seasonal</p>
+</a>
+</div>
+</div>
+</header>
+<!-- Main Content -->
+<main class="flex-1 flex flex-col w-full max-w-md mx-auto pb-24">
+<!-- Section: The Daily Focus (1 Column) -->
+<div class="pt-6 pb-2">
+<h2 class="text-[#181311] dark:text-white text-xl font-bold leading-tight tracking-tight px-4 pb-4">The Daily Focus</h2>
+<div class="px-4">
+<div class="flex flex-col items-stretch justify-start rounded-2xl bg-surface-light dark:bg-surface-dark shadow-sm overflow-hidden group cursor-pointer transition-transform duration-300 hover:scale-[1.01]">
+<div class="w-full bg-center bg-no-repeat aspect-[16/10] bg-cover relative" data-alt="Close up of a cortado in a clear glass on a wooden table" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA1Msut8lonDlU9UF2LxfzhNGog8AhHQ52lmSGkWsTWt18ozGIzTGCD667MfVmDTa-gONIL6MfxrBlrKsDGfSFIDog1tEOcaVXoQw807Rb_qQ44zK5amBbIKki2j_WeWV3W_eeVq_JNKCXXP0JmL1uwaqEekeACr1b5nN-Al3RIpdGuZx33SrkVtjQgijmizO6VyRlOkZbIO57a5gGrUtJQPUXDreRpG60XkpiQx8tyAAuB_lxxpsaPV5_wUv-eZh9EkbD9nJqsAxk");'>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-60"></div>
+<div class="absolute bottom-4 left-4 text-white">
+<p class="text-xs font-medium tracking-wider uppercase bg-primary px-2 py-0.5 rounded w-fit mb-2">Barista's Choice</p>
+</div>
+</div>
+<div class="flex w-full grow flex-col gap-2 p-5">
+<div class="flex justify-between items-start">
+<h3 class="text-[#181311] dark:text-white text-2xl font-bold leading-tight tracking-[-0.02em]">Cortado</h3>
+<p class="text-[#181311] dark:text-white text-lg font-medium">4.5</p>
+</div>
+<p class="text-[#896b61] dark:text-[#cfbcb6] text-sm leading-relaxed mb-3">Equal parts espresso and warm milk. Smooth, balanced, and perfect for sipping.</p>
+<button class="w-full py-3 rounded-lg bg-[#181311] dark:bg-white dark:text-[#181311] text-white text-sm font-bold tracking-wide uppercase flex items-center justify-center gap-2 group-hover:bg-primary transition-colors">
+<span>Add to Order</span>
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Section: Espresso Classics (2 Columns) -->
+<div class="pt-8 pb-2">
+<h2 class="text-[#181311] dark:text-white text-xl font-bold leading-tight tracking-tight px-4 pb-4">Espresso Classics</h2>
+<div class="grid grid-cols-2 gap-4 px-4">
+<!-- Card 1 -->
+<div class="bg-surface-light dark:bg-surface-dark rounded-xl p-3 flex flex-col gap-3 shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-square bg-gray-100 dark:bg-white/5 rounded-lg bg-center bg-cover" data-alt="Double shot espresso in a small white cup" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBSt7th_DHmRLS2d3ftyniRHocWIIVcS1Hdioj4z-Q0LnlZBUBQJprqpaVTh6up_gdfgcO5SvaHi-GDLpy56gms30uzoj4F6wUUQ99alWhRqdJ-9PxSi59zch1tEtjNBLsoOV9l13mH0Off79CZjPpnB0rUaAp8seNxW6GZ3qTzJgaubEogMzL7Xt0fzrUCOurKaA8ZfGABrR-2vaHvshKeUmOMIy1tX2-Gh1l7q11rwhGZA8hltSHogwFSRIXNuZEhHUyYLsMrb0A");'></div>
+<div class="flex flex-col gap-1">
+<h3 class="text-[#181311] dark:text-white text-base font-bold leading-tight">Espresso</h3>
+<p class="text-[#896b61] dark:text-[#a08c84] text-xs leading-normal">Double Shot</p>
+</div>
+<div class="flex items-center justify-between mt-auto pt-1">
+<span class="text-[#181311] dark:text-white font-medium text-sm">3.5</span>
+<button class="size-8 rounded-full bg-background-light dark:bg-background-dark text-[#181311] dark:text-white flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-light dark:bg-surface-dark rounded-xl p-3 flex flex-col gap-3 shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-square bg-gray-100 dark:bg-white/5 rounded-lg bg-center bg-cover" data-alt="Americano coffee in a black cup" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDKkiJgtPjMIZB4TX7MfGyGU0g6rm7Dc7BxFhGTBN8QXNqu0KR4_gH3dPd0wFgBsPjasjum_MusXZLNB5vnBmuCdbrY-ortskOXxyU3w9fa_Gjq4FUzElEk3aeEPMj1iLrlaZdOhBjHYdYGo6fKUIiyfdE5IpXVtbExL_k7iFjv-97nWr_Ya6xX3s0JZQpqBYTH036ruZ5T9N63XXVRo68E546N6JQ-Ve1wxqkV2ZaEjWoR3umXLusICM9J7L6iqOKYfgNlkD3ncKc");'></div>
+<div class="flex flex-col gap-1">
+<h3 class="text-[#181311] dark:text-white text-base font-bold leading-tight">Americano</h3>
+<p class="text-[#896b61] dark:text-[#a08c84] text-xs leading-normal">Water &amp; Espresso</p>
+</div>
+<div class="flex items-center justify-between mt-auto pt-1">
+<span class="text-[#181311] dark:text-white font-medium text-sm">4.0</span>
+<button class="size-8 rounded-full bg-background-light dark:bg-background-dark text-[#181311] dark:text-white flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-light dark:bg-surface-dark rounded-xl p-3 flex flex-col gap-3 shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-square bg-gray-100 dark:bg-white/5 rounded-lg bg-center bg-cover" data-alt="Traditional Macchiato with foam dollop" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDfym-ZclZFV8EzxClPa8E5CVRntrOt0vL9NQSpEa-La3-ZpPvP3D8KiD2ZppyPMOKWTBxdsLwUNOR8HIQT2oy3ddlM3lXr3fZiZGvdMHARvCZLtvJWcD0vtt3pAxtyX9uDWB3E_dZ59hrS30Hfk2CfqFWpFdZHkUgLPTonD3PRGvxSRvvrQtaPXNT__paYZ_kYA3vstev_rvRwFPo226kdpAcsK2xHDeDVaZJ07hi-vVgmvtKVyp1CoJWswjlpnW8oYAxhUs_XFdc");'></div>
+<div class="flex flex-col gap-1">
+<h3 class="text-[#181311] dark:text-white text-base font-bold leading-tight">Macchiato</h3>
+<p class="text-[#896b61] dark:text-[#a08c84] text-xs leading-normal">Marked with foam</p>
+</div>
+<div class="flex items-center justify-between mt-auto pt-1">
+<span class="text-[#181311] dark:text-white font-medium text-sm">4.2</span>
+<button class="size-8 rounded-full bg-background-light dark:bg-background-dark text-[#181311] dark:text-white flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface-light dark:bg-surface-dark rounded-xl p-3 flex flex-col gap-3 shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-square bg-gray-100 dark:bg-white/5 rounded-lg bg-center bg-cover" data-alt="Cappuccino with latte art in white cup" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDNgJCrpbCD7nIbw-VMJ7B0EzHaYd5OBfGPTZOimIP1MNKhvc5-iRio4vQkf5LlcNPIUg47vAd1HU3OAvdEn0o3Xi3Lk7eYeLvgsBY_0RKTWF-vPtQZydZYoA_JWD85T274L8kkWdeZYd_mLinIhi8dF5rRM6d8gi040bxBeNxZMkLoeO7Rja1C9lxvZS-D0JkbTMVZUMEWgtU-WeRUvTEuFHoeJaoRLpmmv5JCW0KNsq3erKkM4SDqAKM6WNznvnSeBy3oLa4HV2U");'></div>
+<div class="flex flex-col gap-1">
+<h3 class="text-[#181311] dark:text-white text-base font-bold leading-tight">Cappuccino</h3>
+<p class="text-[#896b61] dark:text-[#a08c84] text-xs leading-normal">Rich foam</p>
+</div>
+<div class="flex items-center justify-between mt-auto pt-1">
+<span class="text-[#181311] dark:text-white font-medium text-sm">4.5</span>
+<button class="size-8 rounded-full bg-background-light dark:bg-background-dark text-[#181311] dark:text-white flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Section: Milk & Alternatives (2 Columns) -->
+<div class="pt-6 pb-4">
+<h2 class="text-[#181311] dark:text-white text-xl font-bold leading-tight tracking-tight px-4 pb-4">Milk &amp; Alternatives</h2>
+<div class="grid grid-cols-2 gap-4 px-4">
+<!-- Card 1 -->
+<div class="bg-surface-light dark:bg-surface-dark rounded-xl p-3 flex flex-col gap-3 shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-square bg-gray-100 dark:bg-white/5 rounded-lg bg-center bg-cover" data-alt="Latte art heart in ceramic cup" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBnqjigKJKi9c4vBuBHHIZmCDOOTYG2z_GpqQyjrPF6LJdGU3ovNKVv6OFPDNHIqv4YU8R-A8icyk5H2bzMnok10TGFT33MyoKevJplhg_17Y9-Ga35cMvU-PADLSH84eji_VkqBanssEWL6iXgTRorEtajGZKAYFinqbw-Pxv4QcBKULQ8eTMAh_x22_3eORBdiB6V-TbSjhP7JIhQmVEiwPWq84BbW0_DVvhjyObYtoUWUs9aDbxehjoWgPZz0q2EsoY7Nvx2UaI");'></div>
+<div class="flex flex-col gap-1">
+<h3 class="text-[#181311] dark:text-white text-base font-bold leading-tight">Latte</h3>
+<p class="text-[#896b61] dark:text-[#a08c84] text-xs leading-normal">Silky steamed milk</p>
+</div>
+<div class="flex items-center justify-between mt-auto pt-1">
+<span class="text-[#181311] dark:text-white font-medium text-sm">5.0</span>
+<button class="size-8 rounded-full bg-background-light dark:bg-background-dark text-[#181311] dark:text-white flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-light dark:bg-surface-dark rounded-xl p-3 flex flex-col gap-3 shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-square bg-gray-100 dark:bg-white/5 rounded-lg bg-center bg-cover" data-alt="Flat white coffee top down view" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB4JA_8I7LKAtT8Uo64SmQY4WqV-Ma23YhqtUuqYRO2g6AB_13-wB5Lh4PTNMnn_7ELrk_2Qua8vt2zoOFLVQqCZn7CVYDgO9PFxOHF9cjV0tRWjqC2mFnVfBT63atbb-O8CvoFztiLN_2pN7RZQwJPMlTVSQgnZwtn1NBIm10SIgqKKDcSuwpNxGaarcFmvU4SuBBauSLwVrLGnDl1KJAN0R8AAQ0mv0iO6jsgwS-mdxBj493VmJN7XKU6LnMNCWIasBknYCcnPu8");'></div>
+<div class="flex flex-col gap-1">
+<h3 class="text-[#181311] dark:text-white text-base font-bold leading-tight">Flat White</h3>
+<p class="text-[#896b61] dark:text-[#a08c84] text-xs leading-normal">Thin microfoam</p>
+</div>
+<div class="flex items-center justify-between mt-auto pt-1">
+<span class="text-[#181311] dark:text-white font-medium text-sm">4.8</span>
+<button class="size-8 rounded-full bg-background-light dark:bg-background-dark text-[#181311] dark:text-white flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-light dark:bg-surface-dark rounded-xl p-3 flex flex-col gap-3 shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-square bg-gray-100 dark:bg-white/5 rounded-lg bg-center bg-cover" data-alt="Iced Oat Latte in glass" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCUdohw2LcjPSF3Dd2tSUdArTI9KKlzI7EY6Fh74_-QKPHqj2ctxVY4GacOurBSwIxaE0T7grE8aLfeEZpc1V0p-1gUD_KSAC6R0ltN_BurpnNudACD0aEEzrkiVBoruLnviItrHHG3TkyDToFThSPH76QvtxTpre1o1azgeGzDOSTmpgYAU2E2rOG2jZjzn39RZAZqfSSvosfYDaYKlJTbdHrhI9DWYWSnAPhJeuJJLAFBo5j9C-gpw2SMQuCceswmLyv1HGEi71U");'></div>
+<div class="flex flex-col gap-1">
+<h3 class="text-[#181311] dark:text-white text-base font-bold leading-tight">Oat Latte</h3>
+<p class="text-[#896b61] dark:text-[#a08c84] text-xs leading-normal">Creamy &amp; Dairy-free</p>
+</div>
+<div class="flex items-center justify-between mt-auto pt-1">
+<span class="text-[#181311] dark:text-white font-medium text-sm">6.0</span>
+<button class="size-8 rounded-full bg-background-light dark:bg-background-dark text-[#181311] dark:text-white flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface-light dark:bg-surface-dark rounded-xl p-3 flex flex-col gap-3 shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-square bg-gray-100 dark:bg-white/5 rounded-lg bg-center bg-cover" data-alt="Dark chocolate mocha with whipped cream" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBplzXZLVf8zsw2hXOzsEYVexsSEaUHN7rY7Rw6Urdtpop2FNeM8RUuuzPMsV51j8v9eb5imrjiRDL-T-IKcKLY7_KVM9egRHZJ3jwYGb8yW6VaQSL3uptI5iyvlL7flzlzs3SnLUp7elDdBeKjfYlRytD5XWQAd0m5Ut-Xwq_gXcnfsAY58RqdrRJjgNDQ6xxutzFDTx3Zu96i7s3rrIaIYiliIUp8hjEyJfKnppFguaP5ndSfoitt_Bun-NKSpA43c9ZrW_R2IWw");'></div>
+<div class="flex flex-col gap-1">
+<h3 class="text-[#181311] dark:text-white text-base font-bold leading-tight">Mocha</h3>
+<p class="text-[#896b61] dark:text-[#a08c84] text-xs leading-normal">Espresso &amp; Cocoa</p>
+</div>
+<div class="flex items-center justify-between mt-auto pt-1">
+<span class="text-[#181311] dark:text-white font-medium text-sm">5.5</span>
+<button class="size-8 rounded-full bg-background-light dark:bg-background-dark text-[#181311] dark:text-white flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Bottom Navigation -->
+<nav class="fixed bottom-0 left-0 right-0 bg-surface-light dark:bg-surface-dark border-t border-black/5 dark:border-white/10 pb-safe z-40">
+<div class="max-w-md mx-auto flex justify-around items-center h-16 px-2">
+<button class="flex flex-col items-center justify-center gap-1 p-2 text-[#896b61] dark:text-[#a08c84] hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[24px]">home</span>
+<span class="text-[10px] font-medium tracking-wide uppercase">Home</span>
+</button>
+<button class="flex flex-col items-center justify-center gap-1 p-2 text-primary">
+<span class="material-symbols-outlined text-[24px] fill-current">local_cafe</span>
+<span class="text-[10px] font-bold tracking-wide uppercase">Menu</span>
+</button>
+<button class="flex flex-col items-center justify-center gap-1 p-2 text-[#896b61] dark:text-[#a08c84] hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[24px]">star</span>
+<span class="text-[10px] font-medium tracking-wide uppercase">Rewards</span>
+</button>
+<button class="flex flex-col items-center justify-center gap-1 p-2 text-[#896b61] dark:text-[#a08c84] hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[24px]">person</span>
+<span class="text-[10px] font-medium tracking-wide uppercase">Account</span>
+</button>
+</div>
+</nav>
+</body></html>
